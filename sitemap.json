@@ -1,0 +1,13 @@
+{
+  "desc": "",
+  "rules": [
+    {
+      "action": "allow",
+      "page": "pages/index/index"
+    },
+    {
+      "action": "disallow",
+      "page": "*"
+    }
+  ]
+}

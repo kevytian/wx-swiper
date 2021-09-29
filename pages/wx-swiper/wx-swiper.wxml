@@ -1,0 +1,15 @@
+<!-- swiper -->
+<swiper wx:if="{{swList && swList.length>0}}" class="t-swiper" duration="{{duration}}" current="{{showIdx}}"
+  bindanimationfinish="changeItem">
+  <swiper-item wx:for="{{swList}}" wx:for-item="item" wx:key="index" wx:for-index="index">
+    <view class="t-item-con t-wh-100p" style="background-image: url({{item.bgImg}});">
+      <view class="t-item-title">{{item.title}}</view>
+      <view class="t-item-desc">{{item.desc}}</view>
+    </view>
+  </swiper-item>
+</swiper>
+<view class="t-leap">
+  <view bindtap="leapTo" data-num="19">跳转到第19项</view>
+  <view bindtap="leapTo" data-num="199">跳转到第199项</view>
+  <view bindtap="leapTo" data-num="1999">跳转到第1999项</view>
+</view>
