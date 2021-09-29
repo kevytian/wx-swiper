@@ -5,8 +5,11 @@
 
 #### data说明
 swList: swiper里的实际item（最多3个），默认[]
+
 showIdx: swiper里的实际item（最多3个）需要显示的那个item下标，默认0
+
 duration: swipper切换动画时间，默认500
+
 currItemNo: 当前显示item对应在总数里的序号，默认1，例如swList共30条数据，currItemNo=15即当前显示的是第15个item
 
 #### 方法说明
