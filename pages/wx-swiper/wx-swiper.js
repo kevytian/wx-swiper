@@ -46,7 +46,7 @@ Page({
     let currItemNo = $.data.currItemNo;
     let swList;
     let showIdx;
-    if (currItemNo == 1 && currIdx == 1 || currItemNo > 1 && currIdx == 2 && currItemNo < max) {
+    if (max > 3 && (currItemNo == 1 && currIdx == 1 || currItemNo > 1 && currIdx == 2 && currItemNo < max)) {
       //左滑-向右切换
       currItemNo += 1;
       swList = max <= 3 ? arr : (currItemNo == 2 ? [arr[currItemNo - 2], arr[currItemNo - 1], arr[currItemNo]] : (currItemNo == max ? [arr[currItemNo - 3], arr[currItemNo - 2], arr[currItemNo - 1]] : [arr[currItemNo - 2], arr[currItemNo - 1], arr[currItemNo]]));
