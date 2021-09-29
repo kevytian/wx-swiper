@@ -18,7 +18,7 @@ leapTo(num): 支持设置数量直接跳转
 2.  微信开发者工具导入查看即可。
 
 #### 效果如下
-![效果演示]()
+![效果演示](https://gitee.com/tiankf/wx-swiper/blob/master/demo.gif)
 
 #### 鸣谢
 如果wx-swiper对你有帮助，请star一下，谢谢了！
