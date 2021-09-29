@@ -1,7 +1,7 @@
 # wx-swiper
 
 #### 介绍
-微信小程序swiper的优化，支持无限数量的swiper-item且不卡顿，支持设置跳转到指定item项
+微信小程序swiper的优化，支持无限数量的swiper-item且不卡顿，支持设置跳转到指定item项。支持无数据，1条、2条、3条、...n条数据，支持跳转任意item位置。
 
 #### data说明
 swList: swiper里的实际item（最多3个），默认[]
